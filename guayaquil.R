@@ -19,12 +19,6 @@ library(cluster)
 library(tm)
 library(knitr)
 
-## store api keys (these are fake example values; replace with your own keys)
-consumer_key = 'c4bBELv9Xf7MpGcyfNCYRiFp5'
-consumer_secret = '3OeNkfXsOAVUtmlDSJ4KPvBiJibTEhlc9DrOmUurSBHF6d4qgn'
-access_token = '1351322832354107395-p8kKc1EbqEIjGl4cpCATipYdu7aO5j'
-access_secret = 'gcxThrsAqAXZmPCbZ7C37qhBqN0j4FoQggFONgwV3FzDT'
-
 ## authenticate via web browser
 token <- create_token(
     app = "Fun_linda",
